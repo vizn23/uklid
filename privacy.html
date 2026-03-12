@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ochrana osobních údajů | Michaela Dušková</title>
+  <meta name="description" content="Stručné informace o zpracování osobních údajů pro web Michaely Duškové.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f6f2e8;
+      --surface: rgba(255, 255, 255, 0.92);
+      --text: #1d2a23;
+      --muted: #526057;
+      --line: rgba(29, 42, 35, 0.12);
+      --primary: #2d8c4e;
+      --shadow: 0 24px 80px rgba(24, 34, 28, 0.12);
+      --radius: 28px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Manrope", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(45, 140, 78, 0.16), transparent 28%),
+        linear-gradient(180deg, #fbf8f2 0%, var(--bg) 100%);
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(calc(100% - 2rem), 920px);
+      margin: 0 auto;
+      padding: 3rem 0 4rem;
+    }
+
+    .card {
+      padding: 2rem;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .eyebrow {
+      margin: 0 0 0.75rem;
+      font-size: 0.82rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--primary);
+    }
+
+    h1,
+    h2 {
+      font-family: "Fraunces", serif;
+      line-height: 1.08;
+      letter-spacing: -0.03em;
+    }
+
+    h1 {
+      margin: 0 0 1rem;
+      font-size: clamp(2.3rem, 5vw, 3.4rem);
+    }
+
+    h2 {
+      margin: 2rem 0 0.6rem;
+      font-size: 1.45rem;
+    }
+
+    p,
+    li {
+      color: var(--muted);
+    }
+
+    ul {
+      padding-left: 1.25rem;
+      margin: 0;
+    }
+
+    a {
+      color: var(--primary);
+    }
+
+    .meta {
+      margin-top: 1.5rem;
+      padding: 1.1rem 1.2rem;
+      border-radius: 1.2rem;
+      border: 1px solid var(--line);
+      background: #f1f8f3;
+    }
+
+    .meta strong {
+      display: block;
+      margin-bottom: 0.45rem;
+      color: var(--text);
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2rem;
+      min-height: 3rem;
+      padding: 0.8rem 1.1rem;
+      border-radius: 999px;
+      background: var(--primary);
+      color: #fff;
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <p class="eyebrow">Právní informace</p>
+      <h1>Ochrana osobních údajů</h1>
+      <p>
+        Tato stránka stručně shrnuje, jak Michaela Dušková jako OSVČ zpracovává osobní údaje při komunikaci přes web,
+        telefon, e-mail nebo poptávkový formulář.
+      </p>
+
+      <div class="meta">
+        <strong>Správce osobních údajů</strong>
+        Michaela Dušková<br>
+        IČO: 12345678<br>
+        Sídlo: doplníme před spuštěním<br>
+        Telefon: <a href="tel:+420777000000">+420 777 000 000</a><br>
+        E-mail: <a href="mailto:poptavka@duskova-uklid.cz">poptavka@duskova-uklid.cz</a>
+      </div>
+
+      <h2>Jaké údaje zpracovávám</h2>
+      <p>
+        Obvykle jde o jméno a příjmení, telefon, e-mail, adresu realizace, obsah poptávky a případně další údaje,
+        které sami dobrovolně poskytnete při komunikaci.
+      </p>
+
+      <h2>Za jakým účelem</h2>
+      <ul>
+        <li>Vyřízení vašeho dotazu nebo nezávazné poptávky.</li>
+        <li>Domluva termínu a samotná realizace služby.</li>
+        <li>Vystavení dokladů a plnění zákonných povinností.</li>
+      </ul>
+
+      <h2>Právní základ zpracování</h2>
+      <p>
+        Osobní údaje zpravidla zpracovávám pro jednání o smlouvě a plnění smlouvy, dále pro plnění právních povinností
+        a v nezbytném rozsahu také na základě oprávněného zájmu při běžné komunikaci s klienty.
+      </p>
+
+      <h2>Jak dlouho údaje uchovávám</h2>
+      <p>
+        Poptávky uchovávám po dobu nezbytnou pro vyřízení komunikace. U objednávek a účetních dokladů uchovávám údaje
+        po dobu vyžadovanou příslušnými právními předpisy.
+      </p>
+
+      <h2>Komu mohou být údaje předány</h2>
+      <p>
+        Údaje neprodávám. Mohou být zpracovány pouze běžnými dodavateli technických služeb, například poskytovatelem
+        hostingu, e-mailu nebo účetní, pokud je to nutné pro provoz nebo splnění povinností.
+      </p>
+
+      <h2>Vaše práva</h2>
+      <ul>
+        <li>Požádat o přístup ke svým osobním údajům.</li>
+        <li>Požádat o opravu nebo výmaz, pokud je to možné.</li>
+        <li>Požádat o omezení zpracování nebo vznést námitku.</li>
+        <li>Podat stížnost u Úřadu pro ochranu osobních údajů.</li>
+      </ul>
+
+      <h2>Kontakt</h2>
+      <p>
+        Pokud máte dotaz ke zpracování osobních údajů, kontaktujte mě na telefonu
+        <a href="tel:+420777000000">+420 777 000 000</a> nebo na e-mailu
+        <a href="mailto:poptavka@duskova-uklid.cz">poptavka@duskova-uklid.cz</a>.
+      </p>
+
+      <a class="back-link" href="index.html">Zpět na hlavní stránku</a>
+    </section>
+  </main>
+</body>
+</html>
